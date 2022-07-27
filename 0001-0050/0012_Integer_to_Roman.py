@@ -23,7 +23,3 @@ def intToRoman(num: int) -> str:
             num = num % val
 
     return res
-
-
-
-print(intToRoman(98))
