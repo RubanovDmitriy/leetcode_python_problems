@@ -8,14 +8,5 @@ def isPalindrome(x: int) -> bool:
         return False
     return x == y
 
-
-# no strings
-def is_alindrome(x: int) -> bool:
-    if x < 0:
-        return False
-
-    rev = 0
-    xsave = x
-
     
 

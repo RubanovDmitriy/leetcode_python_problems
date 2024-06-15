@@ -14,3 +14,7 @@ def is_valid(s: str) -> bool:
         else:
             stack.append(c)
     return True if not stack else False
+
+# O(n)
+
+print(is_valid("()[]{}"))
