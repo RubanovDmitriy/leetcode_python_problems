@@ -3,7 +3,6 @@ def binary_search(col, target):
     right = len(col) - 1
     mid = (left + right) // 2
     while right >= left and col[mid] != target:
-        a = col[mid]
         if target > col[mid]:
             left = mid + 1
         else:
