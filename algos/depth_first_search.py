@@ -3,8 +3,6 @@ def dfs(graph, start, visited=None):
         visited = set()
     visited.add(start)
 
-    graph_start = graph[start]
-
     for next in graph[start] - visited:
         dfs(graph, next, visited)
     return visited
