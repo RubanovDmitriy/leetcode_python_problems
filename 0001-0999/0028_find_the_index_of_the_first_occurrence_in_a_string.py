@@ -7,6 +7,6 @@ def str_str(haystack: str, needle: str) -> int:
             return i
     return -1
 
+
 assert str_str('sadbutsad', 'sad') == 0
 assert str_str('leetcode', 'leeto') == -1
-
