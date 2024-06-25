@@ -7,3 +7,6 @@ def is_happy(n: int) -> bool:
         n = _sum
 
     return n == 1
+
+
+assert is_happy(19) is True
